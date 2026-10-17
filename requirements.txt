@@ -1,0 +1,11 @@
+pandas
+numpy
+pyarrow
+tqdm
+python-dotenv
+sentence-transformers
+chromadb
+anthropic
+requests
+streamlit
+pytest

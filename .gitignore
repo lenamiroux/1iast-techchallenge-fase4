@@ -1,0 +1,22 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Segredos (NUNCA versionar chaves de API)
+.env
+
+# Dados e artefatos gerados: são grandes e reproduzíveis pelos scripts.
+# Os CSVs também seguem a licença do Kaggle, então não os redistribuímos.
+data/raw/
+data/processed/
+vectorstore/
+
+# Sistema operacional / IDE
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+*.code-workspace
