@@ -42,7 +42,7 @@ COLLECTION_NAME = "olist_reviews"
 # ---------------------------------------------------------------------------
 TOP_K = int(os.getenv("TOP_K", 8))                     # evidências enviadas ao LLM
 CANDIDATES_K = int(os.getenv("CANDIDATES_K", 40))      # candidatos antes do MMR
-SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", 0.80))
+SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", 0.84))
 MIN_EVIDENCES = int(os.getenv("MIN_EVIDENCES", 3))     # mínimo para gerar resposta
 MMR_LAMBDA = float(os.getenv("MMR_LAMBDA", 0.7))       # 1 = só relevância; 0 = só diversidade
 
