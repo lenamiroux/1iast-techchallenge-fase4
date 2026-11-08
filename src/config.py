@@ -12,7 +12,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # Carrega as variáveis do arquivo .env (se existir) para os.environ
-load_dotenv()
+# override=True: o .env é a fonte da verdade, mesmo que o terminal
+# tenha variáveis antigas carregadas (ex.: pelo VS Code)
+load_dotenv(override=True)
 
 # ---------------------------------------------------------------------------
 # Caminhos
