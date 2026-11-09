@@ -51,8 +51,8 @@ MMR_LAMBDA = float(os.getenv("MMR_LAMBDA", 0.7))       # 1 = só relevância; 0 
 # ---------------------------------------------------------------------------
 # LLM
 # ---------------------------------------------------------------------------
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "anthropic")
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama")
 ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-opus-5-5")
 ANTHROPIC_EFFORT = os.getenv("ANTHROPIC_EFFORT", "medium")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2:3b")
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
