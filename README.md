@@ -6,7 +6,7 @@ em uma base de conhecimento consultável em linguagem natural, com **respostas f
 rastreáveis** e **reconhecimento de quando não há informação suficiente**.
 
 > Tech Challenge – Fase 4 · Pós-Graduação AI Scientist FIAP
-> Helena Simões
+Helena Simões
 
 ---
 
