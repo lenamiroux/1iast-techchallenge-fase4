@@ -5,8 +5,7 @@ Solução de **Retrieval-Augmented Generation (RAG)** que transforma ~100 mil av
 em uma base de conhecimento consultável em linguagem natural, com **respostas fundamentadas em evidências
 rastreáveis** e **reconhecimento de quando não há informação suficiente**.
 
-## Tech Challenge – Fase 4 · Pós-Graduação AI Scientist FIAP
-### Helena Simões
+> Tech Challenge – Fase 4 · Pós-Graduação AI Scientist FIAP | Helena Simões
 
 ---
 
